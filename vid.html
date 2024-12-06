@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Custom Video Player</title>
+    <link rel="stylesheet" href="vid.css">
+</head>
+<body>
+    <div class="container" style="background-color: black;">
+        <div class="video-player">
+            <video id="video" controls>
+                <source src="video1.mp4" type="video/mp4">
+                <source src="video1.webm" type="video/webm">
+                Your browser does not support the video tag.
+            </video>
+            <div class="controls">
+                <button id="playPause">Play/Pause</button>
+                <button id="stop">Stop</button>
+                <button id="rewind">Rewind 10s</button>
+                <button id="forward10">Forward 10s</button>
+            <button id="forward1min">Forward 1min</button>
+            <button id="forward10min">Forward 10min</button>
+            <button id="mute">Mute/Unmute</button>
+            <input type="range" id="volume" min="0" max="1" step="0.1" value="1">
+            <button id="fullscreen">Fullscreen</button>
+            <div class="time-display">
+                <span id="currentTime">0:00</span> / <span id="duration">0:00</span>
+            </div>
+        </div>
+        <div class="playlist">
+            <select id="videoSelect">
+                <option value="video1.mp4">Video 1</option>
+                <option value="video2.mp4">Video 2</option>
+                <option value="video3.mp4">Video 3</option>
+                <option value="video4.mp4">Video 4</option>
+                <option value="video5.mp4">Video 5</option>
+                <option value="video6.mp4">Video 6</option>
+                <option value="video7.mp4">Video 7</option>
+                <option value="video8.mp4">Video 8</option>
+                <option value="video9.mp4">Video 9</option>
+                <option value="video10.mp4">Video 10</option>
+                <option value="video11.mp4">Video 11</option>
+                <option value="video12.mp4">Video 12</option>
+                <option value="video13.mp4">Video 13</option>
+                <option value="video14.mp4">Video 14</option>
+                <option value="video15.mp4">Video 15</option>
+                <option value="video16.mp4">Video 16</option>
+                <option value="video17.mp4">Video 17</option>
+                <option value="video18.mp4">Video 18</option>
+                <option value="video19.mp4">Video 19</option>
+                <option value="video20.mp4">Video 20</option>
+                <option value="video21.mp4">Video 21</option>
+                <option value="video22.mp4">Video 22</option>
+                <option value="video23.mp4">Video 23</option>
+                <option value="video24.mp4">Video 24</option>
+                <option value="video25.mp4">Video 25</option>
+                <option value="video26.mp4">Video 26</option>
+                <option value="video27.mp4">Video 27</option>
+                <option value="video28.mp4">Video 28</option>
+                <option value="video29.mp4">Video 29</option>
+                <option value="video30.mp4">Video 30</option>
+                <option value="video31.mp4">Video 31</option>
+                <option value="video32.mp4">Video 32</option>
+                <option value="video33.mp4">Video 33</option>
+                <option value="video34.mp4">Video 34</option>
+                <option value="video35.mp4">Video 35</option>
+                <option value="video36.mp4">Video 36</option>
+                <option value="video37.mp4">Video 37</option>
+                <option value="video38.mp4">Video 38</option>
+                <option value="video39.mp4">Video 39</option>
+                <option value="video40.mp4">Video 40</option>
+                <option value="video41.mp4">Video 41</option>
+                <option value="video42.mp4">Video 42</option>
+                <option value="video43.mp4">Video 43</option>
+                <option value="video44.mp4">Video 44</option>
+                <option value="video45.mp4">Video 45</option>
+                <option value="video46.mp4">Video 46</option>
+                <option value="video47.mp4">Video 47</option>
+                <option value="video48.mp4">Video 48</option>
+                <option value="video49.mp4">Video 49</option>
+                <option value="video50.mp4">Video 50</option>
+                <option value="video51.mp4">Video 51</option>
+                <option value="video52.mp4">Video 52</option>
+                <option value="video53.mp4">Video 53</option>
+                <option value="video45.mp4">Video 54</option>
+               
+            </select>
+        </div>
+    </div>
+    </div>
+    <script src="vid.js"></script>
+</body>
+</html>
